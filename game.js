@@ -1,5 +1,7 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCounterText = document.getElementById("questionCounter");
+const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -25,7 +27,7 @@ let questions = [
     answer: 3,
   },
   {
-    question: "When trimester are women notified of a Twin or multiple birth?",
+    question: "Which trimester are women notified of a Twin or multiple birth?",
     choice1: "In the First trimester",
     choice2: "In the Second trimester",
     choice3: "In the Third trimester",
@@ -43,14 +45,14 @@ let questions = [
   },
 ];
 
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const CORRECT_BONUS = 25;
+const MAX_QUESTIONS = 4;
 
 startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
-  console.log(availableQuestions);
+
   getNewQuestion();
 };
 
@@ -60,6 +62,8 @@ getNewQuestion = () => {
   }
 
   questionCounter++;
+  questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
@@ -75,7 +79,30 @@ getNewQuestion = () => {
 
 choices.forEach((choice) => {
   choice.addEventListener("click", (e) => {
-    console.log(e.target);
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset["number"];
+
+    const classToApply =
+      selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+    if (classToApply === "correct") {
+      incrementScore(CORRECT_BONUS);
+    }
+
+    selectedChoice.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply);
+      getNewQuestion();
+    }, 1000);
   });
 });
+
+incrementScore = (num) => {
+  score += num;
+  scoreText.innerText = score;
+};
 startGame();
