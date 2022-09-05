@@ -1,5 +1,5 @@
 :root {
-  background-color: lightgray;
+  background-color: rgb(211, 211, 211);
   font-size: 62.5%;
 }
 
@@ -20,7 +20,7 @@ h4 {
 
 h1 {
   font-size: 54px;
-  color: red;
+  color: rgba(255, 0, 0, 0.997);
   margin-bottom: 50px;
 }
 
@@ -88,9 +88,22 @@ h3 {
   background-color: white;
 }
 
+.btn2 {
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  text-decoration: none;
+  color: red;
+  background-color: white;
+}
+
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0px 4px 14px gray;
+  box-shadow: 0px 4px 14px rgba(128, 128, 128, 0.966);
   transform: translateY(-1px);
   transition: transform 150ms;
 }
@@ -115,4 +128,46 @@ input {
   font-size: 18px;
   border: none;
   box-shadow: 0px 4px 14px gray;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 50px;
+}
+
+footer .fab {
+  color: black;
+}
+
+footer .fa-linkedin-in:hover {
+  color: #3b5998;
+}
+
+footer .fa-instagram:hover {
+  color: rgb(131, 58, 180);
+}
+
+footer .fa-facebook:hover {
+  color: #0077b5;
+}
+
+.fab {
+  padding: 10px;
+}
+
+.instructions {
+  font-size: 16px;
+  padding: 45px;
+  font-variant: small-caps;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.instructionsred {
+  color: red;
+}
+
+.instructionsgreen {
+  color: green;
 }
