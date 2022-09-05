@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(211, 211, 211);
+  background-color: #d3d3d3;
   font-size: 62.5%;
 }
 
@@ -8,7 +8,7 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: black;
+  color: #000000;
 }
 
 h1,
@@ -20,7 +20,7 @@ h4 {
 
 h1 {
   font-size: 54px;
-  color: rgba(255, 0, 0, 0.997);
+  color: #ff0000;
   margin-bottom: 50px;
 }
 
@@ -81,11 +81,11 @@ h3 {
   padding: 10px;
   width: 200px;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin-bottom: 10px;
   text-decoration: none;
-  color: red;
-  background-color: white;
+  color: #ff0000;
+  background-color: #ffffff;
 }
 
 .btn2 {
@@ -93,17 +93,17 @@ h3 {
   padding: 10px;
   width: 200px;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin-bottom: 50px;
   margin-top: 0px;
   text-decoration: none;
-  color: red;
-  background-color: white;
+  color: #ff0000;
+  background-color: #ffffff;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0px 4px 14px rgba(128, 128, 128, 0.966);
+  box-shadow: 0px 4px 14px #808080;
   transform: translateY(-1px);
   transition: transform 150ms;
 }
@@ -127,7 +127,7 @@ input {
   padding: 15px;
   font-size: 18px;
   border: none;
-  box-shadow: 0px 4px 14px gray;
+  box-shadow: 0px 4px 14px #808080;
 }
 
 footer {
@@ -138,7 +138,7 @@ footer {
 }
 
 footer .fab {
-  color: black;
+  color: #000000;
 }
 
 footer .fa-linkedin-in:hover {
@@ -146,7 +146,7 @@ footer .fa-linkedin-in:hover {
 }
 
 footer .fa-instagram:hover {
-  color: rgb(131, 58, 180);
+  color: #833ab4;
 }
 
 footer .fa-facebook:hover {
@@ -161,13 +161,13 @@ footer .fa-facebook:hover {
   font-size: 16px;
   padding: 45px;
   font-variant: small-caps;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Georgia, Times New Roman, Times, serif";
 }
 
 .instructionsred {
-  color: red;
+  color: #ff0000;
 }
 
 .instructionsgreen {
-  color: green;
+  color: #008000;
 }
