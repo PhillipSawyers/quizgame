@@ -1,36 +1,42 @@
-# Quiz-Game
-
-# **Portfolio Project**
+# **Quiz Game **
 
 ## **UX**
 
-My portfolio website will be used by potential employers and future clients which will showcase my past, present and future projects.
+My Quiz game is a four-question quiz about Twins, I chose this particular subject because I myself is an identical Twin.
 
-The website has one page with multiple sections including a project section and a contact me section. The website also has links to my social media.
+The Quiz game has multiple pages, which consist of a Home page, Play game page, How to play page and a final score page. Each page has a footer with social media links at the bottom connecting to my Instagram, Facebook and LinkedIn.
 
-The user can contact me for more information via the contact me section of the website.
+I chose to design my Quiz like this based off research and found this to be a very user friendly and affective format.
 
-I've chosen to style my website in the way that I have, as I felt that it looks clean, clear and professional.
+The use of colours makes the game stand out and more importantly gives an indication of the correct and incorrect answer when choosing an answer.
+
+The user can navigate back to the home page at anytime to start the game over again and also have the option of saving their score at the end of the Quiz.
+
+This project will also be located on my portfolio website displaying my past, present and future projects.
 
 **Wireframes**
 
 I created my wireframes using Balsamiq. I have done two wireframes for both mobile and desktop usage to display how the site will look.
 
-[Desktop wireframe image] (https://raw.githubusercontent.com/PhillipSawyers/portfolio-project/master/images/Desktop%20Wireframe.png)
+[Desktop & Mobile wireframe images]
 
-[Mobile wireframe image] (https://raw.githubusercontent.com/PhillipSawyers/portfolio-project/master/images/Mobile%20Wireframe.png)
+(https://raw.githubusercontent.com/PhillipSawyers/quizgame/master/assets/wireframes/Final%20Score.png)
+
+(https://raw.githubusercontent.com/PhillipSawyers/quizgame/master/assets/wireframes/Game.png)
+
+(https://raw.githubusercontent.com/PhillipSawyers/quizgame/master/assets/wireframes/High%20Score.png)
+
+(https://raw.githubusercontent.com/PhillipSawyers/quizgame/master/assets/wireframes/Home%20page.png)
+
+(https://raw.githubusercontent.com/PhillipSawyers/quizgame/master/assets/wireframes/How%20to%20play.png)
 
 **Features**
 
 _Existing Features_
 
-- Hamburger button - Clicking the hamburger button triggers a menu containing the navigation links to all sections on my website. The user can click the links to navigate to the relevant section.
-
 - Social media links - Each link opens a new page with the relevant social media page for the band (Facebook, Instagram and LinkedIn). profiles from one place. The social media profiles load in a new tab, which allows users to then return to the site.
 
-- Navigation links - Allows users to navigate around my website by clicking each navigation link, which redirects them to the relevant webpage.
-
-- Contact link – In about section a clickable hyperlink is attached which takes the user to the contact form at the bottom of the website.
+- Buttons - Allows users to navigate around my website by clicking each Button, which redirects them to the relevant page.
 
 ## **Technologies Used**
 
@@ -46,13 +52,13 @@ The project uses HTML5 to create the basic elements and content of my website.
 
 The project uses CSS3 to add custom styles to the elements and content of my website.
 
-**Bootstrap v5.1**
+**JAVASCRIPT**
 
-The project uses Bootstrap v5.1 to add a responsive grid system and Bootstrap styles to my website
+The project uses JAVASCRIPT to which programmes the behaviour of the website.
 
 **Font Awesome**
 
-The project uses Font Awesome for the social media links and icons for some of my headings.
+The project uses Font Awesome for the social media links and icons used in my footer.
 
 **Git**
 
@@ -66,16 +72,15 @@ I've used GitHub as a remote repository to push and store the committed changes 
 
 _Responsive Testing_
 
-I used Google Chrome's Development tools to constantly test each change that I made to my website and to ensure that it appeared in the desired way on different screen sizes. I also tested my website on different screen sizes (mobile and desktop) to ensure it appeared in the desired way on different devices.
+I used Google Chrome's Development tools to constantly test each change that I made to my project and to ensure that it appeared in the desired way on different screen sizes. I also tested my website on different screen sizes (mobile and desktop) to ensure it appeared in the desired way on different devices.
 
 **Challenges and Problems**
 
-I had and issue with my background image being responsive using different devices, I solved this problem using media query which allowed me to set adjustments to image based on the device it was displayed on
-
-**HTML and CSS Validation**
+**HTML, CSS and JAVASCRIPT Validation**
 
 I used the W3C HTML Validator tool to validate my HTML code.
 I used the W3C CSS Validator tool to validate my CSS code.
+I used Esprima Syntax Validator to validate my JAVASCRIPT code.
 
 ## **Deployment**
 
@@ -89,10 +94,10 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
 4. Committed the files to Git using the git commit -m "Initial commit"command.
 
-5. Created a new repository in GitHub called ‘portfolio-project.
+5. Created a new repository in GitHub called ‘quizgame’.
 
 6. Copied the below code from GitHub into the terminal window in my VSCode workspace:
-   git remote add origin https://github.com/PhillipSawyers/portfolio-project.git
+   git remote add origin https://github.com/PhillipSawyers/quizgame.git
    git push -u origin master
 
 7. Entered my GitHub username and password to push the files from Git to GitHub.
@@ -105,7 +110,7 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
 _Repository Link_
 
-https://github.com/PhillipSawyers/portfolio-project.git
+https://github.com/PhillipSawyers/quizgame.git
 
 Running Code Locally
 To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
@@ -114,10 +119,6 @@ To run my code locally, users can download a local copy of my code to their desk
 2. Click on 'Clone or download'.
 3. Click on 'Download ZIP'.
 
-## **Media**
-
-The photos used in this site were obtained either from the assets provided with the course content, or from Google images and free images downloaded from unsplash.com. I made sure all images were "free to use or share, even commercially".
-
 **Acknowledgements**
 
-A special mention to my mentor, Sunny Hebbar, for his feedback on my portfolio and for his help and clear explanation of things I didn’t quite understand during this project.
+A special mention to my mentor Alex, for his feedback on my project and his help instructing on ways to improve it.
