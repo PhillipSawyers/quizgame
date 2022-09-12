@@ -12,6 +12,8 @@ The use of colours makes the game stand out and more importantly gives an indica
 
 The user can navigate back to the home page at anytime to start the game over again and also have the option of saving their score at the end of the Quiz.
 
+The Quiz also has a how to page explaining how to play the game and how much each question is worth as a score.
+
 This project will also be located on my portfolio website displaying my past, present and future projects.
 
 **Wireframes**
@@ -75,6 +77,8 @@ _Responsive Testing_
 I used Google Chrome's Development tools to constantly test each change that I made to my project and to ensure that it appeared in the desired way on different screen sizes. I also tested my website on different screen sizes (mobile and desktop) to ensure it appeared in the desired way on different devices.
 
 **Challenges and Problems**
+
+Due to time I was unable to get the users top scores to save correctly as some display as a random number
 
 **HTML, CSS and JAVASCRIPT Validation**
 
